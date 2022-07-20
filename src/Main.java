@@ -7,7 +7,9 @@ public class Main {
 
         if (y > 1000) {
             f = y / 100;
-        } else {f = 0;}
+        } else {
+            f = 0;
+        }
 
         int z = x + y + f;
 
