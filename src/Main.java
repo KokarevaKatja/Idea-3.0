@@ -1,19 +1,19 @@
 public class Main {
     public static void main(String[] args) {
 
-        int x = 600;
-        int y = 1200;
-        int f;
+        int account = 600;
+        int credit = 1200;
+        int bonus;
 
-        if (y > 1000) {
-            f = y / 100;
+        if (credit > 1000) {
+            bonus = credit / 100;
         } else {
-            f = 0;
+            bonus = 0;
         }
 
-        int z = x + y + f;
+        int total = account + credit + bonus;
 
-        System.out.println(z);
-        System.out.println(f);
+        System.out.println(total);
+        System.out.println(bonus);
     }
 }
